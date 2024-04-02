@@ -7,7 +7,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="torchscale-gml",
-    version="0.2.0",
+    version="0.2.1",
     author="TorchScale Team",
     author_email="Shuming.Ma@microsoft.com",
     description="Transformers at any scale",
