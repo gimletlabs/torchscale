@@ -6,7 +6,7 @@ from io import open
 from setuptools import find_packages, setup
 
 setup(
-    name="torchscale",
+    name="torchscale-gml",
     version="0.2.0",
     author="TorchScale Team",
     author_email="Shuming.Ma@microsoft.com",
