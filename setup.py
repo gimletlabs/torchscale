@@ -7,7 +7,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="torchscale-gml",
-    version="0.2.1",
+    version="0.2.2",
     author="TorchScale Team",
     author_email="Shuming.Ma@microsoft.com",
     description="Transformers at any scale",
@@ -16,7 +16,7 @@ setup(
     keywords="Transformers at any scale",
     license="MIT",
     url="https://github.com/microsoft/torchscale",
-    packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
+    package_dir = {"": "torchscale"},
     install_requires=["torch>=1.8", "fairscale~=0.4.0", "timm", "einops"],
     python_requires=">=3.8.0",
     classifiers=[
